@@ -99,7 +99,8 @@ Pod::Spec.new do |spec|
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
-  spec.prefix_header_file = '#import "Bootstrap.h"', '#import "AbstractMessage.h"', '#import "AbstractMessage_Builder.h"', '#import "CodedInputStream.h"', '#import "CodedOutputStream.h"', '#import "ConcreteExtensionField.h"', '#import "ExtendableMessage.h"', '#import "ExtendableMessage_Builder.h"', '#import "ExtensionField.h"', '#import "ExtensionRegistry.h"', '#import "Field.h"','#import "GeneratedMessage.h"', '#import "GeneratedMessage_Builder.h"', '#import "Message.h"', '#import "Message_Builder.h"', '#import "MutableExtensionRegistry.h"', '#import "MutableField.h"', '#import "UnknownFieldSet.h"', '#import "UnknownFieldSet_Builder.h"', '#import "Utilities.h"', '#import "WireFormat.h"'
+  #spec.prefix_header_file = '#import "Bootstrap.h"', '#import "AbstractMessage.h"', '#import "AbstractMessage_Builder.h"', '#import "CodedInputStream.h"', '#import "CodedOutputStream.h"', '#import "ConcreteExtensionField.h"', '#import "ExtendableMessage.h"', '#import "ExtendableMessage_Builder.h"', '#import "ExtensionField.h"', '#import "ExtensionRegistry.h"', '#import "Field.h"','#import "GeneratedMessage.h"', '#import "GeneratedMessage_Builder.h"', '#import "Message.h"', '#import "Message_Builder.h"', '#import "MutableExtensionRegistry.h"', '#import "MutableField.h"', '#import "UnknownFieldSet.h"', '#import "UnknownFieldSet_Builder.h"', '#import "Utilities.h"', '#import "WireFormat.h"'
+  spec.prefix_header_file = 'ProtocolBuffers/ProtocolBuffers-Prefix.pch'
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
