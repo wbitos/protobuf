@@ -12,7 +12,28 @@
     #import <Foundation/Foundation.h>
     // Include any system framework and library headers here that should be included in all compilation units.
     // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
-    #import <ProtocolBuffers.h>
+#import "Bootstrap.h"
+#import "AbstractMessage.h"
+#import "AbstractMessage_Builder.h"
+#import "CodedInputStream.h"
+#import "CodedOutputStream.h"
+#import "ConcreteExtensionField.h"
+#import "ExtendableMessage.h"
+#import "ExtendableMessage_Builder.h"
+#import "ExtensionField.h"
+#import "ExtensionRegistry.h"
+#import "Field.h"
+#import "GeneratedMessage.h"
+#import "GeneratedMessage_Builder.h"
+#import "Message.h"
+#import "Message_Builder.h"
+#import "MutableExtensionRegistry.h"
+#import "MutableField.h"
+#import "UnknownFieldSet.h"
+#import "UnknownFieldSet_Builder.h"
+#import "Utilities.h"
+#import "WireFormat.h"
+
 #endif
 
 #endif

@@ -13,7 +13,6 @@
 // limitations under the License.
 
 #import <ProtocolBuffers/Bootstrap.h>
-
 #import <ProtocolBuffers/AbstractMessage.h>
 #import <ProtocolBuffers/AbstractMessage_Builder.h>
 #import <ProtocolBuffers/CodedInputStream.h>
