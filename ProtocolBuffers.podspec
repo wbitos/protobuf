@@ -73,6 +73,10 @@ Pod::Spec.new do |spec|
   # spec.watchos.deployment_target = "2.0"
   # spec.tvos.deployment_target = "9.0"
 
+  spec.ios.deployment_target = "9.0"
+  spec.osx.deployment_target = "10.9"
+  spec.watchos.deployment_target = "2.0"
+  spec.tvos.deployment_target = "9.0"
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -132,7 +136,7 @@ Pod::Spec.new do |spec|
 
   # spec.requires_arc = true
   spec.requires_arc = true
-  
+
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
 
