@@ -1,0 +1,18 @@
+//
+//  ProtocolBuffers-Prefix.pch
+//  ProtocolBuffers
+//
+//  Created by wbitos on 15/5/22.
+//  Copyright (c) 2015年 wbitos. All rights reserved.
+//
+
+#ifndef ProtocolBuffers_ProtocolBuffers_Prefix_pch
+#define ProtocolBuffers_ProtocolBuffers_Prefix_pch
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    // Include any system framework and library headers here that should be included in all compilation units.
+    // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+    #import <ProtocolBuffers.h>
+#endif
+
+#endif
