@@ -99,7 +99,7 @@ Pod::Spec.new do |spec|
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
-
+  spec.prefix_header_contents = "#import \"ProtocolBuffers.h\""
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
